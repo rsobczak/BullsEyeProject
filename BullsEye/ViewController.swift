@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func showAlert() {
+       
+        let alert = UIAlertController(title: "Hallo Word!", message: "This is my first app", preferredStyle: .alert) // 4 kroki do wytworzenia POP UP okienka
+        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+    
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
 
 }
 
