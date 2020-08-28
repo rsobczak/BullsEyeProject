@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582D937324F911A0001CDB2A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582D937224F911A0001CDB2A /* WebKit.framework */; };
 		5832FE8C24F6DA6A00951207 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832FE8B24F6DA6A00951207 /* AboutViewController.swift */; };
 		5832FE8E24F6DEA100951207 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832FE8D24F6DEA100951207 /* AboutAuthorViewController.swift */; };
+		5833910C24F90256008EB757 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 5833910B24F90256008EB757 /* BullsEye.html */; };
 		5864322C24ED7C2000A90024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864322B24ED7C2000A90024 /* AppDelegate.swift */; };
 		5864322E24ED7C2000A90024 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864322D24ED7C2000A90024 /* SceneDelegate.swift */; };
 		5864323024ED7C2000A90024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864322F24ED7C2000A90024 /* ViewController.swift */; };
@@ -18,8 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		582D937224F911A0001CDB2A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5832FE8B24F6DA6A00951207 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		5832FE8D24F6DEA100951207 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		5833910B24F90256008EB757 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = SOURCE_ROOT; };
 		5864322824ED7C2000A90024 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5864322B24ED7C2000A90024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5864322D24ED7C2000A90024 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582D937324F911A0001CDB2A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		582D937124F911A0001CDB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582D937224F911A0001CDB2A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5864321F24ED7C2000A90024 = {
 			isa = PBXGroup;
 			children = (
 				5864322A24ED7C2000A90024 /* BullsEye */,
 				5864322924ED7C2000A90024 /* Products */,
+				582D937124F911A0001CDB2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +83,7 @@
 				5864323424ED7C2600A90024 /* Assets.xcassets */,
 				5864323624ED7C2600A90024 /* LaunchScreen.storyboard */,
 				5864323924ED7C2600A90024 /* Info.plist */,
+				5833910B24F90256008EB757 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -132,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5864323824ED7C2600A90024 /* LaunchScreen.storyboard in Resources */,
+				5833910C24F90256008EB757 /* BullsEye.html in Resources */,
 				5864323524ED7C2600A90024 /* Assets.xcassets in Resources */,
 				5864323324ED7C2000A90024 /* Main.storyboard in Resources */,
 			);
